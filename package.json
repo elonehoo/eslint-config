@@ -1,0 +1,22 @@
+{
+  "name": "@elonehoo/eslint-config-monorepo",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "description": "Elone Hoo's ESLint config presets",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "keywords": [
+    "esline",
+    "config"
+  ],
+  "devDependencies": {
+    "bumpp": "^7.1.1",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  }
+}
