@@ -23,7 +23,7 @@ pnpm add -D eslint @elonehoo/eslint-config
 
 ```eslintrc
 {
-  "extends": "@antfu"
+  "extends": "@elonehoo"
 }
 ```
 
