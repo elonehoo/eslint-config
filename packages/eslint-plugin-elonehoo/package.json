@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-elonehoo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Elone Hoo's ESLint config presets",
   "license": "MIT",
   "keywords": [

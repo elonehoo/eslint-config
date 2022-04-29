@@ -1,7 +1,7 @@
 {
   "name": "@elonehoo/eslint-config-monorepo",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "description": "Elone Hoo's ESLint config presets",
   "main": "index.js",
