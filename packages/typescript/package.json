@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
   "description": "Elone Hoo's ESLint config presets",
@@ -20,7 +20,7 @@
     "typescript": ">=3.9"
   },
   "devDependencies": {
-    "@elonehoo/eslint-config-basic":"workspace:*",
+    "@elonehoo/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0"
   },

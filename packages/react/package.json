@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
   "description": "Elone Hoo's ESLint config presets",
@@ -22,7 +22,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@elonehoo/eslint-config-ts":"workspace:*",
+    "@elonehoo/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.29.4"
   },
   "dependencies": {

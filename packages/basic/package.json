@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
   "description": "Elone Hoo's ESLint config presets",
@@ -14,9 +14,12 @@
   "files": [
     "*.js"
   ],
-  "keywords": ["eslint","config"],
+  "keywords": [
+    "eslint",
+    "config"
+  ],
   "devDependencies": {
-    "eslint-plugin-elonehoo":"workspace:*",
+    "eslint-plugin-elonehoo": "workspace:*",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",

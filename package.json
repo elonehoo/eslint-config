@@ -1,7 +1,7 @@
 {
   "name": "@elonehoo/eslint-config-monorepo",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "description": "Elone Hoo's ESLint config presets",
   "main": "index.js",
@@ -15,10 +15,10 @@
     "config"
   ],
   "devDependencies": {
-    "@elonehoo/eslint-config":"*",
+    "@elonehoo/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^8.14.0",
-    "eslint-plugin-elonehoo":"workspace:*",
+    "eslint-plugin-elonehoo": "workspace:*",
     "typescript": "^4.6.3"
   }
 }
