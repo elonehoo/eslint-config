@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "eslint": "^8.14.0"
+  },
+  "scripts": {
+    "publish": "npm publish --access public"
   }
 }

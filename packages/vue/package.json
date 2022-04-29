@@ -5,7 +5,9 @@
   "main": "index.js",
   "description": "Elone Hoo's ESLint config presets",
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "keywords": [
     "eslint",
     "config"

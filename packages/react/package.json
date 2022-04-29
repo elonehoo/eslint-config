@@ -13,6 +13,7 @@
     "index.js"
   ],
   "scripts": {
+    "publish": "npm publish --access public",
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {

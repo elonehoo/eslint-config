@@ -9,7 +9,12 @@
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
-    "publish": "pnpm -C packages/core run publish --access public && pnpm -C packages/basic run publish --access public && pnpm -C packages/typescript run publish --access public && pnpm -C packages/react run publish --access public && pnpm -C packages/vue run publish --access public && pnpm -C packages/all run publish --access public"
+    "core:publish": "pnpm -C packages/core run publish",
+    "basic:publish": "pnpm -C packages/basic run publish",
+    "ts:publish": "pnpm -C packages/typescript run publish",
+    "vue:publish": "pnpm -C packages/vue run publish",
+    "react:publish": "pnpm -C packages/react run publish",
+    "all:publish": "pnpm -C packages/all run publish"
   },
   "keywords": [
     "esline",

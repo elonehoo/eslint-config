@@ -12,6 +12,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
