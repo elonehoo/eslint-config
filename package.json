@@ -1,0 +1,20 @@
+{
+  "name": "@elonehoo/eslint-config-monorepo",
+  "version": "1.0.4",
+  "private": true,
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "description": "Elone Hoo's ESLint config presets",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@elonehoo/eslint-config": "*",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.14.0",
+    "eslint-plugin-elonehoo": "workspace:*",
+    "typescript": "^4.6.3"
+  }
+}

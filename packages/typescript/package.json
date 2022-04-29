@@ -1,0 +1,27 @@
+{
+  "name": "@elonehoo/eslint-config-ts",
+  "version": "1.0.4",
+  "description": "Elone Hoo's ESLint config presets",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@elonehoo/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}

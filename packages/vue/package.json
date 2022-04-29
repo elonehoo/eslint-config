@@ -1,0 +1,25 @@
+{
+  "name": "@elonehoo/eslint-config-vue",
+  "version": "1.0.4",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "description": "Elone Hoo's ESLint config presets",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@elonehoo/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}
