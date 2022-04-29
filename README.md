@@ -2,7 +2,7 @@
   <img src="./public/logo.svg" width="100px" height="100px"/>
 </div>
 
-<h1>@elonehoo/eslint-config</h1>
+<h1 align="center">@elonehoo/eslint-config</h1>
 
 <div align="center">
   <a href="https://www.npmjs.com/package/@elonehoo/eslint-config">
