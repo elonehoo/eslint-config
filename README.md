@@ -1,6 +1,16 @@
-# @elonehoo/eslint-config
+<div align="center">
+  <img src="./public/logo.svg" width="100px" height="100px">
+</div>
 
-[![npm](https://img.shields.io/npm/v/@elonehoo/eslint-config?color=81A2BE&label=)](https://npmjs.com/package/@elonehoo/eslint-config)
+<h1 align="center">
+@elonehoo/eslint-config
+</h1>
+
+<div align="center">
+  <a href="https://npmjs.com/package/@elonehoo/eslint-config">
+  <img src="https://img.shields.io/npm/v/@elonehoo/eslint-config?color=81A2BE&label=">
+  </a>
+</div>
 
 ## Features
 
