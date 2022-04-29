@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag",
+    "publish": "pnpm -C packages/eslint-plugin-elonehoo run publish --access public && pnpm -C packages/"
   },
   "keywords": [
     "esline",
