@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/eslint-config-ts",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Elone Hoo's ESLint config presets",
   "keywords": [],
   "license": "MIT",
