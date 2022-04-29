@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://www.npmjs.com/package/@elonehoo/eslint-config">
-    <img src="https://img.shields.io/npm/v/@elonehoo/eslint-config?color=81A2BE&label=" width="100px" height="100px"/>
+    <img src="https://img.shields.io/npm/v/@elonehoo/eslint-config?color=81A2BE&label=" />
   </a>
 </div>
 
