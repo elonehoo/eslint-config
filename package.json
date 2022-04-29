@@ -1,7 +1,7 @@
 {
   "name": "@elonehoo/eslint-config-monorepo",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "description": "Elone Hoo's ESLint config presets",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag",
-    "publish": "pnpm -C packages/eslint-plugin-elonehoo run publish --access public && pnpm -C packages/"
+    "publish": "pnpm -C packages/core run publish --access public && pnpm -C packages/basic run publish --access public && pnpm -C packages/typescript run publish --access public && pnpm -C packages/react run publish --access public && pnpm -C packages/vue run publish --access public && pnpm -C packages/all run publish --access public"
   },
   "keywords": [
     "esline",
