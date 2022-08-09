@@ -31,7 +31,7 @@ importers:
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^42.0.0
       eslint-plugin-vue: ^8.7.1
-      eslint-plugin-yml: ^0.14.0
+      eslint-plugin-yml: ^0.15.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.0
     dependencies:
@@ -47,7 +47,7 @@ importers:
       eslint-plugin-promise: 6.0.0_eslint@8.21.0
       eslint-plugin-unicorn: 42.0.0_eslint@8.21.0
       eslint-plugin-vue: 8.7.1_eslint@8.21.0
-      eslint-plugin-yml: 0.14.0_eslint@8.21.0
+      eslint-plugin-yml: 0.15.0_eslint@8.21.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.1.0
     devDependencies:
@@ -65,7 +65,7 @@ importers:
       eslint-plugin-n: ^15.1.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^42.0.0
-      eslint-plugin-yml: ^0.14.0
+      eslint-plugin-yml: ^0.15.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.0
     dependencies:
@@ -78,7 +78,7 @@ importers:
       eslint-plugin-n: 15.1.0_eslint@8.21.0
       eslint-plugin-promise: 6.0.0_eslint@8.21.0
       eslint-plugin-unicorn: 42.0.0_eslint@8.21.0
-      eslint-plugin-yml: 0.14.0_eslint@8.21.0
+      eslint-plugin-yml: 0.15.0_eslint@8.21.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.1.0
     devDependencies:
@@ -995,18 +995,6 @@ packages:
       ms: 2.1.2
     dev: false
 
-  /debug/4.3.2:
-    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-    dev: false
-
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -1636,13 +1624,13 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-yml/0.14.0_eslint@8.21.0:
-    resolution: {integrity: sha512-+0+bBV/07txENbxfrHF9olGoLCHez64vmnOmjWOoLwmXOwfdaSRleBSPIi4nWQs7WwX8lm/fSLadOjbVEcsXQQ==}
+  /eslint-plugin-yml/0.15.0_eslint@8.21.0:
+    resolution: {integrity: sha512-fRx7wNmRvK2FjwCmnsTm71FcHlmH7eMyXpa/GgfwAfb/7RDH0XeOaM8Z8KupYxoizYu8eBLGcPv1DzRZzvhnww==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.4
       eslint: 8.21.0
       lodash: 4.17.21
       natural-compare: 1.4.0
@@ -2498,7 +2486,7 @@ packages:
     dev: true
 
   /ms/2.0.0:
-    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
+    resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
     dev: false
 
   /ms/2.1.2:
