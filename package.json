@@ -13,7 +13,7 @@
   "devDependencies": {
     "@elonehoo/eslint-config": "*",
     "bumpp": "8.2.1",
-    "eslint": "8.22.0",
+    "eslint": "8.23.0",
     "eslint-plugin-elonehoo": "workspace:*",
     "typescript": "4.8.3"
   }
